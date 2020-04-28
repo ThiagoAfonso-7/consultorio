@@ -1,0 +1,218 @@
+<html>
+  <head>
+    
+   <meta charset="utf-8" />
+    <title>Consultório de Psicologia</title>
+
+    <!-- Bootstrap início -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- Bootstrap fim -->
+
+    <!-- Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+    <script src="app.js"></script>
+
+  </head>
+  <body>
+    
+    <body style="margin-bottom: 200px;padding: 100px;background: lightblue">
+
+
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-info mb-5">
+
+ 
+      <div class="container">
+
+<a class="navbar-brand" href="file:///C:/Users/Thiago%20Peixoto/Desktop/PROVA%20CC1/index.html">
+           <img src="logopsi.png" width="50" height="35" alt="Equilibrium">
+        </a>
+
+       
+        <a href="index.html" class="navbar-brand">Consultório Equilibrium</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="info.html">Sobre o Consultório</a>
+            </li>
+            <li class="nav-item">
+                <a href="contato.html" class="nav-link">Contato</a>
+              </li>
+            <li class="nav-item">
+                <a href="Pacientes.html" class="nav-link">Pacientes</a>
+              </li>
+              <li class="nav-item active">
+                <a href="psicólogos.html" class="nav-link">Psicólogos</a>
+              </li>
+              <li class="nav-item">
+                <a href="anamnese.html" class="nav-link">Anamnese</a>
+              </li>
+              <li class="nav-item">
+                <a href="Sessões.html" class="nav-link">Sessões</a>
+              </li>
+              <li class="nav-item">
+                <a href="cadastro.html" class="nav-link">cadastro</a>
+              </li>
+            <li class="nav-item">
+                <a href="login.html" class="btn btn-outline-light ml-4">Entrar</a>
+              </li>
+            </ul>
+      </div>
+</div>
+    </nav>
+    <!--/Conteudo -->
+    <h1 class="display-4 text-center text-info">Registrar Psicólogos</h1>
+    <hr>
+    <br>
+    <br>
+
+
+ <form>
+  <div class="col-md-12">
+    <form>
+      
+      <div class="form-group">
+        <label for="nome">Nome:</label>
+        <input type="text" class="form-control" id="nome" placeholder="informe o nome..."> 
+      </div>
+
+
+      <div class="row">
+        <div class="col-md-3">
+        <div class="form-group">
+        <label for="cpf">CPF:</label>
+       <input type="number" class="form-control" id="cpf" placeholder="000.000.000-00">
+      </div>
+       </div>
+     </div>
+
+
+
+<div class="row">
+        <div class="col-md-3">
+        <div class="form-group">
+        <label for="telefone">Telefone:</label>
+       <input type="number" class="form-control" id="cpf" placeholder="(00)00000-0000">
+      </div>
+       </div>
+     </div>
+
+     <div class="row">
+     <div class="col-md-3">
+     <div class="form-group">
+      <label for="inputPlano">CRP:</label>
+      <select id="inputPlano" class="form-control">
+        <option selected>...</option>
+        <option value="">02/039522</option>
+        <option value="">03/039521</option>
+        <option value="">04/039527</option>
+        <option value="">05/039525</option>
+        <option value="">...</option>
+      </select>
+    </div>
+
+    <hr>
+    <br>
+    <br>
+
+<form class="form-inline">
+        <label for="usuario">Usuario</label>
+        <input class="form-control mr-2" type="text" placeholder="Digite seu usuário">
+        <label for="senha">Senha</label>
+        <input class="form-control mr-2" type="password" placeholder="Digite sua senha">
+        <input  class="btn btn-info" type="submit" value="Logar">
+    </form>
+
+ </form>
+<br>
+<br>
+<br>
+<div class="table-responsive-lg">
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#idPsicologo</th>
+      <th scope="col">Nome</th>
+      <th scope="col">CPF</th>
+      <th scope="col">CRP</th>
+      <th scope="col">Telefone</th>
+  
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>225.299.584-08</td>
+      <td>1234567</td>
+      <td>2468-4879</td>
+      
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>254.245.548-02</td>
+      <td>098765</td>
+      <td>6587-2540</td>
+    
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Bianca</td>
+      <td>299.554.021-06</td>
+      <td>548763</td>
+      <td>7958-2455</td>
+
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Maiara</td>
+      <td>254.324.855-02</td>
+      <td>587894</td>
+      <td>9784-5584</td>
+
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td> Marcelo</td>
+      <td>666.000.111-01</td>
+      <td>548621</td>
+      <td>8446-5142</td>
+    </tr>
+    <br>
+  </tbody>
+  </table>
+</div>
+<nav class="navbar fixed-bottom navbar-dark bg-info">
+  
+  <!-- Footer -->
+<footer class="page-footer font-small blue">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3 "> © Copyright 2020: Equilibrium
+    <a href="file:///C:/Users/Thiago%20Peixoto/Desktop/PROVA%20CC1/index.html" class="text-white"></a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+</nav>
+
+  </body>
+</html>

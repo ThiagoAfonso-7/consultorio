@@ -1,0 +1,246 @@
+<html>
+  <head>
+    
+   <meta charset="utf-8" />
+    <title>Consultório de Psicologia</title>
+
+    <!-- Bootstrap início -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- Bootstrap fim -->
+
+    <!-- Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+    <script src="app.js"></script>
+
+  </head>
+  <body>
+    
+    <body style="margin-bottom: 200px;padding: 100px;background: lightblue">
+
+
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-info mb-5">
+
+ 
+      <div class="container">
+
+
+<a class="navbar-brand" href="file:///C:/Users/Thiago%20Peixoto/Desktop/PROVA%20CC1/index.html">
+           <img src="logopsi.png" width="50" height="35" alt="Equilibrium">
+        </a>
+       
+        <a href="index.html" class="navbar-brand">Equilibrium</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="info.html">Sobre o Consultório</a>
+            </li>
+            <li class="nav-item">
+                <a href="contato.html" class="nav-link">Contato</a>
+              </li>
+            <li class="nav-item">
+                <a href="Pacientes.html" class="nav-link">Pacientes</a>
+              </li>
+              <li class="nav-item">
+                <a href="psicólogos.html" class="nav-link">Psicólogos</a>
+              </li>
+              <li class="nav-item">
+                <a href="anamnese.html" class="nav-link">Anamnese</a>
+              </li>
+              <li class="nav-item active">
+                <a href="Sessões.html" class="nav-link">Sessões</a>
+              </li>
+              <li class="nav-item">
+                <a href="cadastro.html" class="nav-link">cadastro</a>
+              </li>
+            <li class="nav-item">
+                <a href="login.html" class="btn btn-outline-light ml-4">Entrar</a>
+              </li>
+            </ul>
+      </div>
+</div>
+    </nav>
+    <!--/Conteudo -->
+    <h1 class="display-4 text-center text-info">Registrar sessões</h1>
+    <hr>
+    <br>
+    <br>
+ <form>
+  <div class="col-md-12">
+    <form>
+      <div class="row">
+     <div class="col-md-3">
+     <div class="form-group">
+    <label for="date">Data:</label>
+     <input  type="date" class="form-control" id="date" plceholder="dd/mm/aaaa">
+    </div>
+    </div>
+    </div>
+
+    <br>
+<div class="form-group">
+            <label for="mensagem">Queixas da tratamento:</label>
+            <textarea class="form-control" id="mensagem" rows="3"></textarea>
+        </div>
+        <br>
+
+
+<div class="form-group">
+            <label for="mensagem">Plano de tratamento:</label>
+            <textarea class="form-control" id="mensagem" rows="3"></textarea>
+        </div>
+        <br>
+
+<div class="form-group">
+            <label for="mensagem">Diagnóstico final:</label>
+            <textarea class="form-control" id="mensagem" rows="3"></textarea>
+        </div>
+        <br>
+
+
+<div class="form-group">
+            <label for="mensagem">Resumo sessão:</label>
+            <textarea class="form-control" id="mensagem" rows="3"></textarea>
+        </div>
+        <br>
+
+
+ <div class="row">
+        <div class="col-md-3">
+        <div class="form-group">
+        <label for="sexo">Evolução:</label>
+      <select id="sexo" class="form-control">
+        <option selected>...</option>
+        <option value="">10%</option>
+        <option value="">20%</option>
+        <option value="">30%</option>
+        <option value="">...</option>
+      </select>
+      </div>
+       </div>
+     </div>
+
+        <div class="row">
+        <div class="col-md-3">
+        <div class="form-group">
+        <label for="sexo">Pago:</label>
+      <select id="sexo" class="form-control">
+        <option selected>...</option>
+        <option value="">Sim</option>
+        <option value="">Não</option>
+      </select>
+      </div>
+       </div>
+     </div>
+      
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Confirmar
+      </label>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-info">Salvar</button>
+
+    </form>
+    
+  </div>
+    
+
+<br>
+<br>
+<br>
+
+<div class="table-responsive-lg">
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#idSessao</th>
+      <th scope="col">Data</th>
+      <th scope="col">Queixas_pacientes</th>
+      <th scope="col">Plano_tratamento</th>
+      <th scope="col">Diagnostico_final</th>
+      <th scope="col">Resumo_sessao</th>
+      <th scope="col">Evolucao</th>
+      <th scope="col">Pago</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+      <td>@mdo</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+      <td>@mdo</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+      <td>@mdo</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+      <td>@mdo</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+      <td>@mdo</td>
+      <td>@mdo</td>
+    </tr>
+    <br>
+  </tbody>
+</table>
+</div>
+
+<nav class="navbar fixed-bottom navbar-dark bg-info">
+  
+  <!-- Footer -->
+<footer class="page-footer font-small blue">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3 "> © Copyright 2020: Equilibrium
+    <a href="file:///C:/Users/Thiago%20Peixoto/Desktop/PROVA%20CC1/index.html" class="text-white"></a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+</nav>
+  </body>
+</html>
